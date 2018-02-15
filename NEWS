@@ -1,0 +1,1294 @@
+Overview of changes in 3.26.3
+=============================
+
+* Bugs fixed:
+ 785376 The link "Settings" in the "No Photos Found" screen does not work
+
+* Updated translations:
+ Norwegian bokmål
+
+
+Overview of changes in 3.26.2
+=============================
+
+* Bugs fixed:
+ 788715 Can't discard all edits directly from the overview without previewing
+        the BaseItem
+
+* Updated translations:
+ Catalan (Valencian)
+
+
+Overview of changes in 3.26.1
+=============================
+
+* Bugs fixed:
+ 785115 tool-crop: Don't show the orientation controls if it doesn't make
+        sense for the "original" aspect ratio
+ 788042 Edits are not applied when setting a background
+
+* Updated translations:
+ Catalan
+ Traditional Chinese (Taiwan)
+ Friulian
+ Greek
+ Icelandic
+ Persian
+ Slovenian
+
+
+Overview of changes in 3.26.0
+=============================
+
+* Updated translations:
+ Basque
+ Croatian
+ Czech
+ Danish
+ Dutch
+ Finish
+ French
+ Friulian
+ Galician
+ German
+ Hungarian
+ Indonesian
+ Italian
+ Korean
+ Lithuanian
+ Polish
+ Portuguese (Brazilian)
+ Serbian
+ Serbian Latin
+ Slovak
+ Spanish
+ Swedish
+ Turkish
+
+
+Overview of changes in 3.25.92
+==============================
+
+* Bugs fixed:
+ 763712 Use G_DECLARE_FINAL_TYPE
+ 786936 Various clean-ups and fixes to the searchbar handling code
+ 787105 Migrate from Intltool to Gettext
+
+* Updated translations:
+ Traditional Chinese (Taiwan)
+ Finnish
+ Friulian
+ Hungarian
+ Korean
+ Latvian
+ Lithuanian
+ Slovak
+ Slovenian
+ Swedish
+ Turkish
+ Vietnamese
+
+
+Overview of changes in 3.25.91
+==============================
+
+* Bugs fixed:
+ 780692 Titles are no longer displayed in the album grid
+
+* Updated translations:
+ Arabic
+ Catalan
+ Croatian
+ Czech
+ Finnish
+ French
+ Friulian
+ Galician
+ German
+ Hungarian
+ Icelandic
+ Indonesian
+ Kazakh
+ Polish
+ Serbian
+ Slovenian
+ Spanish
+ Swedish
+ Turkish
+
+
+Overview of changes in 3.25.4
+=============================
+
+* Support GEGL >= 0.3.16
+
+* Bugs fixed:
+ 763329 thumbnailer: Fix typo and complete the right D-Bus call
+ 763712 Use G_DECLARE_FINAL_TYPE
+ 781134 Support changing the orientation of the crop rectangle
+
+* Updated translations:
+ Hungarian
+ Indonesian
+ Vietnamese
+
+
+Overview of changes in 3.25.3
+=============================
+
+* Support zooming (742662)
+
+* Bugs fixed:
+ 763712 Use G_DECLARE_FINAL_TYPE
+ 764423 Use G_DECLARE_INTERFACE
+ 776082 Port PhotosSearchbar to GtkSearchBar
+ 778354 photos:insta-curve should support buffers with alpha channel
+ 780424 Port widgets to templates
+ 782012 Remove the g_auto* macros for GEGL
+
+* Updated translations:
+ Friulian
+ German
+ Indonesian
+ Kazakh
+ Polish
+ Spanish
+
+
+Overview of changes in 3.25.1
+=============================
+
+* Bugs fixed:
+ 763712 Use G_DECLARE_FINAL_TYPE
+ 765136 Changing the aspect ratio of the crop can make the selection larger
+        than the image
+ 780424 Port widgets to templates
+
+* Updated translations:
+ Croatian
+ Greek
+ Gujarati
+ Latvian
+ Occitan
+ Polish
+ Russian
+
+
+Overview of changes in 3.23.92
+==============================
+
+* Bugs fixed:
+ 763712 Use G_DECLARE_FINAL_TYPE
+ 777869 Letterbox photo thumbnails
+ 779380 Add a flatpak manifest
+ 779589 Emit GdMainBox::selection-changed only after updating the selection
+
+* Updated translations:
+ Traditional Chinese (Taiwan)
+ Czech
+ Danish
+ Galician
+ Italian
+ Korean
+ Lithuanian
+ Serbian
+ Slovak
+ Swedish
+ Vietnamese
+
+
+Overview of changes in 3.23.91
+==============================
+
+* Bugs fixed:
+ 690255 Fix distorted and wrongly scaled thumbnails
+ 763329 Thumbnails don't reflect edited state
+ 763712 Use G_DECLARE_FINAL_TYPE
+ 777867 Closing the properties before determining the edited state of an item
+        shouldn't affect subsequent attempts to load the same item
+ 778620 appdata: Add screenshot of sharing feature
+ 778925 Exported and shared items have their orientation applied twice
+ 778967 po, source-notification: Fix typo
+
+* Updated translations:
+ Basque
+ Finnish
+ French
+ Friulian
+ German
+ Hungarian
+ Indonesian
+ Kazakh
+ Norwegian bokmål
+ Polish
+ Portuguese (Brazilian)
+ Serbian
+ Spanish
+ Ukrainian
+
+
+Overview of changes in 3.23.90
+==============================
+
+* Bugs fixed:
+ 690255 Try to avoid low resolution thumbnails
+ 763712 Use G_DECLARE_FINAL_TYPE
+ 777053 tests: Wait for the UI to be drawn completely
+ 777492 Notify when an online account needs attention
+ 778620 Appdata uses screenshots of older version
+
+* Updated translations:
+ Catalan
+ Czech
+ Danish
+ Finnish
+ Friulian
+ German
+ Indonesian
+ Kazakh
+ Polish
+ Slovak
+ Swedish
+ Ukrainian
+
+
+Overview of changes in 3.23.4
+=============================
+
+* Bugs fixed:
+ 690623 Port to GtkFlowBox
+ 747123 Show GPS information in properties
+ 763712 Use G_DECLARE_FINAL_TYPE
+ 775700 Remove PhotosSettings
+ 776133 GdMainView: The DnD selection counter is broken on HiDpi
+ 776565 Crashed right after creating a new album
+ 776670 application: Add F1 accelerator to show help
+
+* Updated translations:
+ Catalan
+ Icelandic
+
+
+Overview of changes in 3.23.3
+=============================
+
+* Bugs fixed:
+ 763712 Use G_DECLARE_FINAL_TYPE
+ 774191 item-manager: Emit GListModel::items-changed
+ 775153 Forget the last non-range selection when leaving selection mode
+ 775562 Don't use PhotosViewModel in PhotosMainToolbar
+ 775754 Find an alternative to PhotosPreviewModel
+ 763908 tracker-controller: Don't use g_cancellable_reset
+
+
+Overview of changes in 3.23.2
+=============================
+
+* Bugs fixed:
+ 763712 Use G_DECLARE_FINAL_TYPE
+ 764423 Use G_DECLARE_DERIVABLE_TYPE
+ 770342 item-manager: Avoid CRITICALs when favouriting contents of collections
+ 771995 SIGILL on Intel Core 2 Duo caused by __builtin_ia32_rdtscp in
+        egg_get_current_cpu_rdtscp()
+ 772443 Wrong extension when exporting anything that's not JPEG or PNG
+ 772813 properties-dialog: Don't show the modification status for collections
+ 774191 Turn PhotosBaseManager into a GListModel
+ 774253 Unable to find Photos by browsing in Software (not listed in relevant
+        categories)
+
+* Updated translations:
+ Catalan
+ Simplified Chinese
+ Traditional Chinese (Taiwan)
+ Danish
+ Friulian
+ Gaelic (Scottish)
+ Italian
+ Norwegian bokmål
+ Persian
+ Ukrainian
+
+
+Overview of changes in 3.21.92
+==============================
+
+* Bugs fixed:
+ 764801 pipeline: Place gegl:crop before photos:magic-filter, and rethink some
+        implementation details
+ 770267 Link the original and shared copies in Tracker
+ 770342 Fix a typo in photos_item_manager_clear
+ 770782 Don't use an undefined ?item variable
+ 770823 Items are not removed from FAVORITES when unfavorited
+
+* Updated translations:
+ English (British)
+ Finnish
+ Galician
+ Greek
+ Hebrew
+ Kazakh
+ Korean
+ Latvian
+ Lithuanian
+ Portuguese
+ Swedish
+ Vietnamese
+
+
+Overview of changes in 3.21.91
+==============================
+
+* Bugs fixed:
+ 763712 Use G_DECLARE_FINAL_TYPE
+ 764423 Use G_DECLARE_DERIVABLE_TYPE
+ 770342 Remove the mode-specific filtering from PhotosViewModel
+
+* Updated translations:
+ Czech
+ French
+ Friulian
+ German
+ Hungarian
+ Indonesian
+ Polish
+ Portuguese (Brazilian)
+ Serbian
+ Slovak
+ Slovenian
+ Spanish
+
+
+Overview of changes in 3.21.90
+==============================
+
+* Experimental sharing support (751181)
+
+* Bugs fixed:
+ 760839 Improvements to the size guessing API
+ 763156 Allow discarding all edits
+ 770157 Split ItemManager to have a separate child manager for each mode
+
+* Updated translations:
+ Czech
+ Finnish
+ French
+ Friulian
+ German
+ Hebrew
+ Hungarian
+ Icelandic
+ Indonesian
+ Portuguese
+ Slovak
+ Spanish
+
+
+Overview of changes in 3.21.4
+=============================
+
+* Bugs fixed:
+ 760839 base-item: Improvements to the size-guessing API
+ 763712 Use G_DECLARE_FINAL_TYPE
+ 763908 done-notification: Remove unnecessary references
+ 764086 Convert jobs API to async calls
+ 765105 Implicitly process the pipeline during add, remove and revert
+ 765340 Use GtkMenuButton in the overview searchbar
+ 766162 Can't export photos from online accounts
+ 767892 item-manager: Fix the lifetime of the changes-pending handler
+ 768130 Keyboard activation leads to a CRITICAL and opens the wrong item
+ 768291 source: Add photos_source_get_icon
+ 768500 The sources of remote collections are not shown in
+        OrganizeCollectionView
+ 768548 base-item: Don't leak the cursor data while refreshing
+
+* Updated translations:
+ Arabic
+ Gujarati
+ Portuguese
+ Punjabi
+
+
+Overview of changes in 3.21.3
+=============================
+
+* Bugs fixed:
+ 760796 Doesn't have a --version flag
+ 763908 preview-view: Hold the UI while saving the pipeline
+ 764076 application: Add API to prevent the main window from getting destroyed
+
+* Updated translations:
+ Catalan
+ Gaelic (Scottish)
+ Indonesian
+ Norwegian bokmål
+ Occitan
+ Portuguese
+ Portuguese (Brazilian)
+ Spanish
+ Turkish
+
+
+Overview of changes in 3.21.1
+=============================
+
+* Bugs fixed:
+ 762725 Avoid GIFs
+ 763292 Improve the alignment of notifications
+ 763908 Cancel or remove pending internal asynchronous operations or sources
+        during destruction
+ 763881 edit-palette-row: Don't leak the PhotosTool
+ 764076 application: Make app.quit use the same path as the close button
+ 764083 Add guards to methods in BaseItem which do not operate on collections
+ 764086 Convert jobs API to async calls
+ 764680 Disable favouriting albums
+ 764681 Prevent nested collections
+
+* Updated translations:
+ Basque
+ Catalan
+ Simplified Chinese
+ Traditional Chinese (Taiwan)
+ Danish
+ French
+ Friulian
+ Italian
+ Japanese
+ Kazakh
+ Korean
+ Persian
+ Polish
+ Swedish
+ Ukrainian
+ Vietnamese
+
+
+Overview of changes in 3.19.92
+==============================
+
+* Bugs fixed:
+ 762027 Fix possible integer overflow flaw (CVE-2013-7447)
+ 762318 Don't overwrite exported photos
+ 762942 Update the crop presets
+ 763096 Add notification when user clicks Done
+ 763131 Add translation context for string "None"
+ 763133 Ambiguous string needing translator comment
+ 763500 Fix PrintOperation object leak
+
+* Updated translations:
+ Traditional Chinese (Taiwan)
+ Czech
+ Finnish
+ Friulian
+ Galician
+ German
+ Greek
+ Hebrew
+ Hungarian
+ Kazakh
+ Korean
+ Latvian
+ Lithuanian
+ Polish
+ Portuguese (Brazilian)
+ Russian
+ Serbian
+ Slovak
+ Spanish
+ Swedish
+ Ukrainian
+
+
+Overview of changes in 3.19.91
+==============================
+
+* Bugs fixed:
+ 761587 Use GAction for properties
+ 761683 Fix resetting crop tool
+ 762046 Cancel reverts editings to previous set
+ 762371 Add notifications when photos are exported
+
+* Updated translations:
+ Catalan
+ Traditional Chinese (Taiwan)
+ Czech
+ Galician
+ German
+ Greek
+ Hebrew
+ Kazakh
+ Occitan
+ Polish
+ Portuguese (Brazilian)
+ Serbian
+ Slovak
+ Spanish
+ Swedish
+
+Overview of changes in 3.19.90
+==============================
+
+* Bugs fixed:
+ 758227 Crop palette improvements
+ 759155 Better ranges for the contrast and denoise sliders
+ 759460 help-overlay: Various improvements
+ 760838 Support exporting from selection mode
+ 760931 Cropping not being applied after clicking "Done"
+ 761076 Add keyboard shortcuts for edit and export
+ 761158 Filter tool doesn't reflect the previously applied filter when
+        re-activated
+ 761559 Replace gegl-gtk with a simpler and streamlined widget
+ 761587 Centralize action toggle logic
+ 761626 tool-filter-button: Selected icon is not centered on the image
+ 761674 Restarting the app and trying to re-crop a cropped item leads to black
+        areas
+
+* Updated translations:
+ Catalan
+ Traditional Chinese (Taiwan)
+ Danish
+ German
+ Greek
+ Hungarian
+ Kazakh
+ Latvian
+ Polish
+ Portuguese (Brazilian)
+ Serbian
+ Slovak
+ Spanish
+
+
+Overview of changes in 3.19.4
+=============================
+
+* Support saturation adjustment
+
+* Bugs fixed:
+ 746940 preview-nav-buttons: Crashes if shutdown and fade_out_button coincide
+ 759155 tool-colors: Restrict the range of the brightness slider
+ 759156 application, base-item: Preserve metadata when saving
+ 759331 Don't show empty albums in favorites
+ 759363 Explicit exports functionality with more options
+ 759521 application: Adapt to Grilo 0.3.0 API changes
+ 760865 theme: Don't use deprecated pseudo classes
+
+* Updated translations:
+ Czech
+ Finnish
+ German
+ Hebrew
+ Lithuanian
+ Norwegian bokmål
+ Portuguese (Brazilian)
+ Slovak
+ Spanish
+
+
+Overview of changes in 3.19.3
+=============================
+
+* Bugs fixed:
+ 740434 Be more robust when opening with an external application
+ 757363 selection-toolbar: Unbreak printing
+ 758227 Crop palette improvements
+ 758352 Cropping is broken on HiDpi screens
+ 758554 edit-palette, edit-palette-row: Add a vertical accordian effect
+ 758809 Use icons in the selection toolbar
+
+* Updated translations:
+ Greek
+ Kazakh
+ Portuguese
+ Slovak
+ Spanish
+
+
+Overview of changes in 3.19.2
+=============================
+
+* Experimental editing support
+
+* Bugs fixed:
+ 733660 Let photos be deleted from the preview
+ 734766 properties-dialog: Be more forgiving of unknown nmm:flash values
+ 747446 Fix HiDpi rendering
+ 757015 Clicking the favorite button doesn't update the UI immediately
+ 757199 Crash when quitting due to the ViewModel outliving the Embed
+ 757363 Don't use g_list_length unless we really need to
+
+* Updated translations:
+ Czech
+ Finnish
+ Gaelic (Scottish)
+ German
+ Hebrew
+ Hungarian
+ Norwegian bokmål
+ Portuguese
+ Spanish
+
+
+Overview of changes in 3.19.1
+=============================
+
+* Bugs fixed:
+ 688566 offset-controller: Prevent loading more items than there actually is
+ 729072 Rename "Recent" view to "Photos"
+ 725508 Can not handle window manager's unfull/full screen operation
+ 732799 Unusual behaviour while displaying on DLNA renderers
+ 733660 Let photos be deleted from the preview
+ 737071 Merge PhotosModeController into PhotosItemManager
+ 741593 No pagination buttons when previewing search results
+ 744627 Search provider starts a lot of miners
+ 751106 Don't toggle the star button and use a filled/unfilled icon instead of
+        coloring it
+ 755600 Fix the background of GdTaggedEntry tags
+ 756131 Disable can-fullscreen when going back, and simplify the state
+        changes / signal emissions
+ 756221 Disabling application menu adds a redundant toolbar
+
+* Updated translations:
+ Czech
+ Portuguese
+ Swedish
+
+
+Overview of changes in 3.18.0
+=============================
+
+* Bugs fixed:
+ 747446 gegl-gtk-view-helper, preview-view: Merge AUTOSCALE_CONTENT logic
+ 754233 Fix GdTaggedEntry theming
+
+* Updated translations:
+ Traditional Chinese (Taiwan)
+ Friulian
+ Korean
+ Latvian
+ Persian
+ Polish
+ Portuguese
+ Romanian
+ Serbian
+ Serbian Latin
+ Spanish
+
+
+Overview of changes in 3.17.2
+=============================
+
+* Bugs fixed:
+ 726462 Improve keyboard navigation for searchbar
+ 745756 delete-notification: Improve the message
+ 745972 Update to latest AX_* macros from upstream
+ 746104 Fix the lifetime of the signal handlers
+ 746152 Arrow keys doesn't work after nav buttons auto hide
+ 746252 Google album titles appear htmlescaped
+ 746731 Let GtkApplication load the app menu automatically
+ 747696 local-item: Use the trash
+
+* Updated translations:
+ Aragonese
+ Basque
+ Bosnian
+ Catalan
+ Simplified Chinese
+ Traditional Chinese (Taiwan)
+ Czech
+ Danish
+ Esperanto
+ Finnish
+ French
+ Galician
+ German
+ Greek
+ Hebrew
+ Hungarian
+ Indonesian
+ Italian
+ Japanese
+ Kazakh
+ Korean
+ Lithuanian
+ Norwegian bokmål
+ Occitan
+ Polish
+ Portuguese (Brazilian)
+ Russian
+ Slovak
+ Slovenian
+ Spanish
+ Swedish
+ Tajik
+ Turkish
+ Ukrainian
+
+
+Overview of changes in 3.15.91
+==============================
+
+* Bugs fixed:
+ 738527 Fix crash when trying to use window after it has been destroyed
+ 740425 base-item: Thumbnail local items before remote ones
+ 744841 main-window: Prevent multiple about dialogs from opening
+ 745070 indexing-notification: Fix the lifetime of the miners-changed handler
+ 745071 application: Fix a crash when stopping the miners
+ 745072 view-model: Fix the lifetime of the info-updated handler
+
+* Updated translations:
+ Traditional Chinese (Taiwan)
+ Czech
+ French
+ German
+ Greek
+ Hebrew
+ Hungarian
+ Kazakh
+ Lithuanian
+ Polish
+ Portuguese (Brazilian)
+ Russian
+ Serbian
+ Slovak
+ Slovenian
+ Spanish
+ Swedish
+ Ukrainian
+
+
+Overview of changes in 3.15.90
+==============================
+
+* Bugs fixed:
+ 711505 Documentation updates
+ 731391 Sluggish next/previous buttons
+ 731437 Port to GEGL 0.3
+ 733213 Jerky transition when opening some photos from the grid
+ 737990 icons: Use symbolics for HighContrast icons
+ 743853 view-container: Use edge-reached signal instead of edge-overshot
+ 744305 Add basic debugging infrastructure
+ 744309 Remove use of deprecated gnome-common
+ 744590 base-item: Silence -Waggregate-return
+
+* Updated translations:
+ Basque
+ Czech
+ Galician
+ Greek
+ Hebrew
+ Hungarian
+ Norwegian bokmål
+ Russian
+ Slovak
+ Slovenian
+ Spanish
+ Turkish
+
+
+Overview of changes in 3.15.4
+=============================
+
+* Bugs fixed:
+ 688566 Replace "Load More" button with edge hit detection
+ 736551 empty-results-box: Change text and icon for favorites
+ 741590 Allow setting the lock screen background from the preview
+
+* Updated translations:
+ Basque
+ Czech
+ Friulian
+ Galician
+ Hungarian
+ Indonesian
+ Portuguese (Brazilian)
+ Spanish
+
+
+Overview of changes in 3.15.3
+=============================
+
+* Bugs fixed:
+ 733214 Use a fallback name in the header bar during preview
+ 740417 Don't scale up thumbnails
+ 740624 Albums with only one photo look odd
+
+* Updated translations:
+ Czech
+
+
+Overview of changes in 3.15.2
+=============================
+
+* Bugs fixed:
+ 709362 base-item, utils: Use subtler images for loading and failure
+ 726505 preview-view: Disable the sliding transition
+ 734845 Show a back button while loading a preview
+ 737071 Improve our state machine, try to enforce the invariants better and
+        avoid races
+ 737310 Ensure that icon-only buttons get the 'image-button' style class
+ 737425 Overlay the spinner instead of switching to a different view
+ 738527 Fix crash when reading scale factor after window has been destroyed
+
+* Updated translations:
+ Simplified Chinese
+ Czech
+ Dutch
+ Gaelic (Scottish)
+ Hungarian
+ Italian
+ Kazakh
+ Korean
+ Latvian
+ Nepali
+ Persian
+ Polish
+ Portuguese
+ Punjabi
+ Turkish
+ Ukrainian
+
+
+Overview of changes in 3.13.92
+==============================
+
+* Bugs fixed:
+ 731865 Make it easier to support new sources
+ 734762 Drop some deprecated baggage
+ 735746 Guard against failure to resolve IDs
+ 736186 help: favorites are now marked using a star icon, not a heart icon
+
+* Updated translations:
+ Danish
+ Finnish
+ French
+ Galician
+ German
+ Hungarian
+ Korean
+ Serbian
+ Slovak
+ Slovenian
+ Spanish
+ Swedish
+
+
+Overview of changes in 3.13.91
+==============================
+
+* Support accessing photos from PicasaWeb (711563)
+
+* Undo-able deletion of photos and albums (720222)
+
+* Support accessing photos from DLNA media servers (728913)
+
+* Bugs fixed:
+ 733011 Add application-specific theme extensions
+ 733216 Move the favorites button in the preview to the header bar
+ 733850 Stop using GdHeaderButton
+ 734398 Missing high contrast icon
+
+* Updated translations:
+ Assamese
+ Basque
+ Catalan
+ Catalan (Valencian)
+ Traditional Chinese (Hong Kong)
+ Traditional Chinese (Taiwan)
+ Czech
+ English (British)
+ Galician
+ Greek
+ Hebrew
+ Indonesian
+ Japanese
+ Lithuanian
+ Norwegian bokmål
+ Portuguese (Brazilian)
+ Romanian
+ Russian
+ Spanish
+
+
+Overview of changes in 3.13.4
+=============================
+
+* New user help (711505)
+
+* Bugs fixed:
+ 696802 query-builder: Add additional directories configured in Tracker
+ 698941 view-container: Prevent the icons from shifting around
+ 708039 appdata: Set each li translatable instead of the whole <ul>
+ 723664 gegl-gtk-view-helper: Avoid pointing to invalid memory
+ 725016 "Open with..." opens the wrong program
+ 725095 Allow enter to activate first search item
+ 725156 Start adding UI tests
+ 725327 Clicking "add to collection" leads to crash
+ 725328 Unbreak activating a search provider result
+ 725329 Fix broken mode changes
+ 725587 Selection and search should be disabled when there are no photos
+ 725589 Hide empty albums
+ 725813 item-manager: Do not crash when a photo is deleted underneath
+ 725934 main-toolbar: Add searchbar in selection mode
+ 726162 view-model: Reset the count when items are removed
+ 726165 overview-searchbar: Refocus the search entry after changing filters
+ 726505 preview-view, preview-nav-buttons: Sliding transition between photos
+ 726519 Crash when moving from preview to search with a source filter
+ 726685 Keyboard navigation using arrow keys in preview mode
+ 726791 Use a single-binary setup for DBus activation
+ 726903 Scale the thumbnails on HiDpi displays
+ 726919 Use o.fd.Tracker1.Extract.Priority interface to prioritize relevant
+        types
+ 727205 Crash if Facebook credentials expired
+ 727392 properties: Use a X close button instead of "Done"
+ 729396 build: Remove GNOME_COMMON_INIT
+ 730822 Use the new support for RTL icons in GTK+
+ 731856 Properly namespace the dleyna-renderer stubs
+ 731865 Make it easier to support new sources
+ 732011 application: Use gtk_application_set_accels_for_action
+ 732676 application: Pass "photos" as the index type to RefreshDB
+ 733011 Add application-specific theme extensions
+ 733355 gegl-gtk-view-helper: Fix vertical stripes in the rendered image
+
+* Updated translations:
+ Basque
+ Catalan
+ Catalan (Valencian)
+ Simplified Chinese
+ Traditional Chinese (Hong Kong)
+ Traditional Chinese (Taiwan)
+ Czech
+ Danish
+ Finnish
+ French
+ Galician
+ German
+ Greek
+ Hebrew
+ Hungarian
+ Indonesian
+ Italian
+ Japanese
+ Kazakh
+ Khmer
+ Korean
+ Latvian
+ Lithuanian
+ Norwegian bokmål
+ Polish
+ Portuguese
+ Portuguese (Brazilian)
+ Punjabi
+ Russian
+ Serbian
+ Slovak
+ Slovenian
+ Spanish
+ Swedish
+ Tajik
+ Telugu
+ Ukrainian
+
+
+Overview of changes in 3.11.90
+==============================
+
+* Implement search provider
+
+* Turn into a DBus activated service
+
+* Bugs fixed:
+ 723729 spinner-box: Remove "Loading..."
+
+* Updated translations:
+ Assamese
+ Czech
+ French
+ Galician
+ Hebrew
+ Norwegian bokmål
+ Portuguese (Brazilian)
+ Spanish
+ Tajik
+ Ukrainian
+
+
+Overview of changes in 3.11.5
+=============================
+
+* Implement search
+
+* Bugs fixed:
+ 715043 srcdir != builddir failure in Continuous
+ 720404 Huge icon for DLNA media renderers
+ 720570 No photos found should appear inside stack views
+ 721402 Extremely slow when starting with a clean DB
+
+* Updated translations:
+ Traditional Chinese (Hong Kong)
+ Traditional Chinese (Taiwan)
+ Czech
+ Finnish
+ Galician
+ Greek
+ Hebrew
+ Lithuanian
+ Norwegian bokmål
+ Portuguese (Brazilian)
+ Spanish
+ Tajik
+ Telugu
+ Turkish
+
+
+Overview of changes in 3.11.4
+=============================
+
+* Bugs fixed:
+ 704947 Do not crash if Tracker is absent
+ 709367 Detect creation of collections and show albums within albums
+ 721402 change-monitor, change-event: Be smarter when resolving new item IDs
+ 721696 selection-toolbar: Use action bar
+
+* Updated translations:
+ Bulgarian
+ Simplified Chinese
+ Galician
+ German
+ Greek
+ Hebrew
+ Kannada
+ Lithuanian
+ Portuguese (Brazilian)
+ Slovenian
+ Spanish
+ Tajik
+
+
+Overview of changes in 3.11.3
+=============================
+
+* Support accessing photos from Facebook (700451)
+
+* Bugs fixed:
+ 715081 build: Support tracker 0.18
+ 720165 app-menu: Standardize Help/About/Quit
+
+* Updated translations:
+ Esperanto
+ Portuguese (Brazilian)
+ Spanish
+ Tajik
+
+
+Overview of changes in 3.11.2
+=============================
+
+* Bugs fixed:
+ 703280 Rename all singleton public constructors to _dup_singleton()
+ 706502 Update DBus signature after dleyna-renderer ABI fix
+ 706513 dlna: Use G_STMT_START/G_STMT_END/G_STRFUNC
+ 706810 main-toolbar: Remove emphasis on Cancel button
+ 706824 Replace dots with commas in EXIF labels
+ 708018 application: Create the main window after the gear-menu action
+ 708054 Utilize intltool 0.50 gsettings support
+ 709367 No albums in Photos view
+ 709368 Use a separate collection for screenshots
+ 709693 dlna-renderer: Fix a value returned
+ 709695 Drop GtkStock
+
+* Updated translations:
+ Arabic
+ Assamese
+ Basque
+ Catalan
+ Catalan (Valencian)
+ Traditional Chinese (Hong Kong)
+ Traditional Chinese (Taiwan)
+ Czech
+ Danish
+ Dutch
+ Estonian
+ Finnish
+ French
+ Galician
+ German
+ Greek
+ Hebrew
+ Hungarian
+ Indonesian
+ Italian
+ Japanese
+ Kannada
+ Korean
+ Latvian
+ Lithuanian
+ Malayalam
+ Norwegian bokmål
+ Persian
+ Polish
+ Portuguese
+ Portuguese (Brazilian)
+ Punjabi
+ Russian
+ Serbian
+ Slovak
+ Slovenian
+ Spanish
+ Tajik
+ Turkish
+ Ukrainian
+
+
+Overview of changes in 3.9.90
+=============================
+
+* Get rid of the WM's titlebar
+
+* Selection pattern design updates (699914)
+
+* Bugs fixed:
+ 691316 main-window: Set minimum size
+ 696794 Hard to get to previous or next photo
+ 705433 dlna-renderer: Wrap common error handling code in a macro
+ 705435 remote-display-manager: Avoid unref'ing NULL in case of errors
+ 705436 dlna-renderer: Do not expose the dLeyna DBus proxies
+ 705439 dlna-renderer: Avoid async loading of PushHost and Player proxies
+ 705551 Switch everything to G_ADD_PRIVATE()!
+ 705607 Navigation buttons fail to reappear on mouse motion and when
+        previewing the same photo
+
+* Updated translations:
+ Simplified Chinese
+ Czech
+ Galician
+ Portuguese (Brazilian)
+ Slovenian
+ Spanish
+ Ukrainian
+
+
+Overview of changes in 3.9.5.1
+==============================
+
+* Implement thumbnailing for Flickr (697675)
+
+* Bugs fixed:
+ 705294 Adapt to GTK+ 3.9.10 API changes
+
+
+Overview of changes in 3.9.5
+============================
+
+* Replace GdHeaderBar with GtkHeaderBar
+
+* Replace GdStack with GtkStack
+
+* Bugs fixed:
+ 703649 dlna-renderer: Simplify initialization
+ 704273 notification-manager: Don't show two close buttons in notifications
+
+* Updated translations:
+ Czech
+ Portuguese (Brazilian)
+ Spanish
+
+
+Overview of changes in 3.9.4
+============================
+
+* Support accessing photos from Flickr (697675)
+
+* Support pushing pictures to DLNA renderers (701775)
+
+* Support rubber band selection
+
+* Bugs fixed:
+ 698086 Avoid bash-specific syntax in photos-generate-about
+ 699899 Use proper ellipses instead of their ASCII equivalents
+ 699900 Disambiguate "Organize"
+ 700061 build: Use git.mk to generate .gitignore files
+ 702909 Special markup characters should be escaped when setting the toolbar
+        title
+ 702910 view-container: Unref mode controller in ::dispose()
+ 703054 Simplify signal handlers tracking
+ 703269 Compilation warnings are not active
+
+* Updated translations:
+ Arabic
+ Czech
+ French
+ German
+ Greek
+ Hebrew
+ Hungarian
+ Polish
+ Portuguese (Brazilian)
+ Serbian
+ Slovak
+ Slovenian
+ Spanish
+
+
+Overview of changes in 3.8.0
+============================
+
+* Support albums, and add Albums mode
+
+* Support printing
+
+* Drop Clutter and ClutterGTK; use GEGL.
+
+* Bugs fixed:
+ 690887 Fix ostbuild failures
+
+* Updated translations:
+ Simplified Chinese
+ Czech
+ Finnish
+ Galician
+ German
+ Hungarian
+ Polish
+ Portuguese (Brazilian)
+ Punjabi
+ Russian
+ Serbian
+ Slovenian
+ Spanish
+
+
+Overview of changes in 3.7.3
+============================
+
+* Add Favorites mode
+
+* Bugs fixed:
+ 688561 embed: Don't upscale images, but do downscale them if necessary
+ 688562 We only want the nie:title as the name, not the filename
+ 688562 utils: Use larger thumbnails / icons
+ 688565 load-more-button: Simplify the button's label
+ 688567 embed: Remove flash effect
+ 688568 embed: Use texture background in preview
+ 688569 embed: Hide actors that aren't visible
+ 688742 Update license blurbs for the current FSF address
+
+* Updated translations:
+ Norwegian bokmål
+ Polish
+ Spanish
+
+
+Overview of changes in 3.7.2
+============================
+
+* First preview release
+
+
+----
+
+Copyright © 2012 – 2017 Red Hat, Inc.
+All rights reserved.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.

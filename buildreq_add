@@ -1,0 +1,9 @@
+# This file contains additional build requirements that did not get
+# picked up automatically. One name per line, no whitespace.
+gegl-dev
+libjpeg-turbo-dev
+gexiv2-dev
+gdk-pixbuf
+desktop-file-utils
+itstool
+pygobject-python
