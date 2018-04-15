@@ -1,66 +1,186 @@
-Overview of changes in 3.26.3
+Overview of changes in 3.28.0
 =============================
 
 * Bugs fixed:
- 785376 The link "Settings" in the "No Photos Found" screen does not work
+ #89 Don't use an intermediate Imports sub-directory for imported content
 
 * Updated translations:
- Norwegian bokmål
+ Traditional Chinese (Taiwan)
+ Croatian
+ Danish
+ Dutch
+ English (British)
+ French
+ Friulian
+ Galician
+ Greek
+ Indonesian
+ Serbian
+ Serbian Latin
+ Slovak
+ Spanish
+ Swedish
+ Turkish
 
 
-Overview of changes in 3.26.2
-=============================
+Overview of changes in 3.27.92
+==============================
 
 * Bugs fixed:
- 788715 Can't discard all edits directly from the overview without previewing
-        the BaseItem
-
-* Updated translations:
- Catalan (Valencian)
-
-
-Overview of changes in 3.26.1
-=============================
-
-* Bugs fixed:
- 785115 tool-crop: Don't show the orientation controls if it doesn't make
-        sense for the "original" aspect ratio
- 788042 Edits are not applied when setting a background
+ !23 Install appstream metadata to non-deprecated location
+ #77 Use g_auto*
+ #87 Store edits in side-car files
+ #88 properties-dialog: Use ngettext for plural forms
+ #89 Various improvements to user-visible strings and controls used for
+     importing from devices
+ #94 flatpak: Fix detection of attached devices
 
 * Updated translations:
  Catalan
  Traditional Chinese (Taiwan)
- Friulian
- Greek
- Icelandic
- Persian
- Slovenian
-
-
-Overview of changes in 3.26.0
-=============================
-
-* Updated translations:
- Basque
  Croatian
  Czech
  Danish
  Dutch
- Finish
- French
+ Finnish
  Friulian
  Galician
+ Gaelic (Scottish)
  German
  Hungarian
  Indonesian
  Italian
+ Kazakh
  Korean
+ Latvian
  Lithuanian
  Polish
  Portuguese (Brazilian)
  Serbian
  Serbian Latin
  Slovak
+ Spanish
+ Vietnamese
+
+
+Overview of changes in 3.27.90
+==============================
+
+* Import from device (#29)
+
+* Bugs fixed:
+ #6     Pre-select the exported file when opening the export directory with
+        Nautilus
+ #7     Pre-select local files in a Flatpak-friendly way
+ #43    Cancel or remove pending internal asynchronous operations or sources
+        during destruction
+ #44    Convert jobs API to async calls
+ #65    Exporting a photo can create a directory with an initial space
+ #77    Use g_auto*
+ #85    Drop built-in implementation of shadows-highlights and use GEGL's
+ 759413 Pre-select the file when opening a local source with Nautilus from
+        Properties
+ 774297 Revamp empty states
+ 782479 Merge PhotosHeaderBar into PhotosMainToolbar
+ 786936 Unbreak progressive loading of collection contents
+
+* Updated translations:
+ Traditional Chinese (Taiwan)
+ Finnish
+ Friulian
+ Galician
+ German
+ Hungarian
+ Indonesian
+ Polish
+ Spanish
+
+
+Overview of changes in 3.27.4
+=============================
+
+* Bugs fixed:
+ 788174 Use g_auto*
+ 790191 Avoid Encapsulated PostScript (EPS) files
+ 791274 Animate updates to the crop rectangle due to preset changes
+
+* Updated translations:
+ Czech
+ Finnish
+ Friulian
+ German
+ Serbian
+ Spanish
+ Turkish
+
+
+Overview of changes in 3.27.3
+=============================
+
+* Support shadows and highlights adjustment (788201)
+
+* Bugs fixed:
+ 781736 Items with embedded orientation are slow to load
+ 785376 The link "Settings" in the "No Photos Found" screen does not work
+ 788174 Use g_auto*
+ 789196 Complete support for EXIF orientation values when rendering
+ 789977 Log the total processing time for the GeglProcessor
+ 791082 Drop unnecessary packed attribute
+
+* Updated translations:
+ Croatian
+ Czech
+ Friulian
+ German
+ Indonesian
+ Norwegian bokmål
+
+
+Overview of changes in 3.27.1
+=============================
+
+* Clarify that the final binaries are under GPLv3+
+
+* Bugs fixed:
+ 763712 Use G_DECLARE_FINAL_TYPE
+ 777505 Show a notification when an item has been successfully shared
+ 783922 Support GtkGestureZoom for zooming
+ 785115 tool-crop: Don't show the orientation controls if it doesn't make
+        sense for the "original" aspect ratio
+ 786936 Various clean-ups and fixes to the searchbar handling code
+ 787833 Provide more context when logging the SPARQL queries
+ 788042 Edits are not applied when setting a background
+ 788715 Can't discard all edits directly from the overview without previewing
+        the BaseItem
+ 789002 Make the Git repositories and submodules work with Web proxies
+
+* Updated translations:
+ Basque
+ Catalan
+ Catalan (Valencian)
+ Traditional Chinese (Taiwan)
+ Croatian
+ Czech
+ Danish
+ Dutch
+ Finnish
+ French
+ Friulian
+ Galician
+ German
+ Greek
+ Hungarian
+ Icelandic
+ Italian
+ Korean
+ Lithuanian
+ Persian
+ Polish
+ Portuguese (Brazilian)
+ Serbian
+ Serbian Latin
+ Slovak
+ Slovenian
  Spanish
  Swedish
  Turkish
