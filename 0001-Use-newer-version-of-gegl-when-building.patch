@@ -1,0 +1,25 @@
+From e84983d5f390eaec9dafb41fe5385f25c0c7254c Mon Sep 17 00:00:00 2001
+From: George T Kramer <george.t.kramer@intel.com>
+Date: Tue, 15 May 2018 21:18:05 +0000
+Subject: [PATCH] Use newer version of gegl when building
+
+---
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/configure.ac b/configure.ac
+index 2a6b9f9..1871fe6 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -103,7 +103,7 @@ PKG_CHECK_MODULES(CAIRO, [cairo >= $CAIRO_MIN_VERSION cairo-gobject])
+ PKG_CHECK_MODULES(DAZZLE, [libdazzle-1.0 >= $DAZZLE_MIN_VERSION])
+ PKG_CHECK_MODULES(GFBGRAPH, [libgfbgraph-0.2 >= $GFBGRAPH_MIN_VERSION])
+ PKG_CHECK_MODULES(GDATA, [libgdata >= $GDATA_MIN_VERSION])
+-PKG_CHECK_MODULES(GEGL, [gegl-0.3 >= $GEGL_MIN_VERSION])
++PKG_CHECK_MODULES(GEGL, [gegl-0.4 >= $GEGL_MIN_VERSION])
+ PKG_CHECK_MODULES(GEOCODE, [geocode-glib-1.0])
+ PKG_CHECK_MODULES(GEXIV2, [gexiv2])
+ PKG_CHECK_MODULES(GDK_PIXBUF, [gdk-pixbuf-2.0 >= $GDK_PIXBUF_MIN_VERSION])
+-- 
+2.17.0
+

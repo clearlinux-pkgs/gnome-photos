@@ -4,7 +4,7 @@
 #
 Name     : gnome-photos
 Version  : 3.28.0
-Release  : 4
+Release  : 5
 URL      : https://download.gnome.org/sources/gnome-photos/3.28/gnome-photos-3.28.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-photos/3.28/gnome-photos-3.28.0.tar.xz
 Summary  : No detailed summary available
@@ -14,14 +14,21 @@ Requires: gnome-photos-bin
 Requires: gnome-photos-data
 Requires: gnome-photos-doc
 Requires: gnome-photos-locales
+BuildRequires : automake
+BuildRequires : automake-dev
 BuildRequires : desktop-file-utils
 BuildRequires : gdk-pixbuf
 BuildRequires : gegl-dev
 BuildRequires : gettext
+BuildRequires : gettext-bin
 BuildRequires : gexiv2-dev
 BuildRequires : itstool
 BuildRequires : libjpeg-turbo-dev
+BuildRequires : libtool
+BuildRequires : libtool-dev
+BuildRequires : m4
 BuildRequires : perl(XML::Parser)
+BuildRequires : pkg-config-dev
 BuildRequires : pkgconfig(babl)
 BuildRequires : pkgconfig(cairo)
 BuildRequires : pkgconfig(cairo-gobject)
@@ -43,6 +50,8 @@ BuildRequires : pkgconfig(libpng16)
 BuildRequires : pkgconfig(tracker-control-2.0)
 BuildRequires : pkgconfig(tracker-sparql-2.0)
 BuildRequires : pygobject-python
+BuildRequires : yelp-tools-dev
+Patch1: 0001-Use-newer-version-of-gegl-when-building.patch
 
 %description
 Photos - access, organize and share your photos on GNOME
@@ -83,14 +92,15 @@ locales components for the gnome-photos package.
 
 %prep
 %setup -q -n gnome-photos-3.28.0
+%patch1 -p1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1523770775
-%configure --disable-static
+export SOURCE_DATE_EPOCH=1526420015
+%reconfigure --disable-static
 make  %{?_smp_mflags}
 
 %check
@@ -101,7 +111,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check || :
 
 %install
-export SOURCE_DATE_EPOCH=1523770775
+export SOURCE_DATE_EPOCH=1526420015
 rm -rf %{buildroot}
 %make_install
 %find_lang gnome-photos
