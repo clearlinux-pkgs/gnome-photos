@@ -4,7 +4,7 @@
 #
 Name     : gnome-photos
 Version  : 3.28.0
-Release  : 5
+Release  : 6
 URL      : https://download.gnome.org/sources/gnome-photos/3.28/gnome-photos-3.28.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-photos/3.28/gnome-photos-3.28.0.tar.xz
 Summary  : No detailed summary available
