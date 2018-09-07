@@ -1,14 +1,93 @@
-Overview of changes in 3.28.1
+Overview of changes in 3.30.0
+=============================
+
+* Updated translations:
+ Croatian
+ Danish
+ Italian
+ Latvian
+
+
+Overview of changes in 3.29.92
+==============================
+
+* Bugs fixed:
+ !48 Port to Meson build system
+
+* Updated translations:
+ Traditional Chinese (Taiwan)
+ English (British)
+ Finnish
+ Galician
+ Hungarian
+ Icelanding
+ Indonesian
+ Kazakh
+ Korean
+ Swedish
+
+
+Overview of changes in 3.29.91
+==============================
+
+* Bugs fixed:
+ !44 build: Update the Git submodule URL after GitLab migration
+ !45 flatpak: Switch Grilo to Meson
+ !49 flatpak: Fix the exiv2 build
+
+* Updated translations:
+ French
+ German
+ Greek
+ Lithuanian
+ Polish
+ Romanian
+ Slovenian
+ Turkish
+
+
+Overview of changes in 3.29.4
 =============================
 
 * Bugs fixed:
- #100 tests: Update for renamed application ID
+  !41 source: Add an error handler for GIcon instance
+  #77 Use g_auto*
+ #108 flatpak: Disable -Werror for gexiv2
 
 * Updated translations:
+ Friulian
+ Portuguese (Brazilian)
+ Romanian
+ Spanish
+
+
+Overview of changes in 3.29.3
+=============================
+
+* Unbreak the "Empty Trash" button on GNOME >= 3.24
+
+* Bugs fixed:
+  !36 main-window: Update copyright years in the about dialog
+  !39 Add OARS and update description to be more confident
+  #77 Use g_auto*
+  #86 Drop copy-pasted src/egg-*.[ch] code
+ #100 tests: Update for renamed application ID
+ #105 Delete *.gnome-photos files with XML depicting an empty GEGL graph
+
+* Updated translations:
+ Catalan
  Simplified Chinese
- Icelandic
+ Traditional Chinese (Taiwan)
+ Croatian
+ Czech
+ Friulian
+ Greek
+ Indonesian
+ Romanian
  Russian
  Slovenian
+ Spanish
+ Swedish
 
 
 Overview of changes in 3.28.0
