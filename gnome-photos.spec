@@ -4,7 +4,7 @@
 #
 Name     : gnome-photos
 Version  : 3.30.0
-Release  : 9
+Release  : 10
 URL      : https://download.gnome.org/sources/gnome-photos/3.30/gnome-photos-3.30.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-photos/3.30/gnome-photos-3.30.0.tar.xz
 Summary  : No detailed summary available
@@ -14,7 +14,7 @@ Requires: gnome-photos-bin
 Requires: gnome-photos-data
 Requires: gnome-photos-license
 Requires: gnome-photos-locales
-BuildRequires : buildreq-gnome
+Requires: tracker-miners-data
 BuildRequires : desktop-file-utils
 BuildRequires : gdk-pixbuf
 BuildRequires : gegl-dev
@@ -55,8 +55,8 @@ Photos - access, organize and share your photos on GNOME
 %package bin
 Summary: bin components for the gnome-photos package.
 Group: Binaries
-Requires: gnome-photos-data
-Requires: gnome-photos-license
+Requires: gnome-photos-data = %{version}-%{release}
+Requires: gnome-photos-license = %{version}-%{release}
 
 %description bin
 bin components for the gnome-photos package.
@@ -102,7 +102,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1536293896
+export SOURCE_DATE_EPOCH=1536781455
 %configure --disable-static
 make  %{?_smp_mflags}
 
@@ -114,7 +114,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check || :
 
 %install
-export SOURCE_DATE_EPOCH=1536293896
+export SOURCE_DATE_EPOCH=1536781455
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/doc/gnome-photos
 cp COPYING %{buildroot}/usr/share/doc/gnome-photos/COPYING
