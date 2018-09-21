@@ -4,7 +4,7 @@
 #
 Name     : gnome-photos
 Version  : 3.30.0
-Release  : 10
+Release  : 11
 URL      : https://download.gnome.org/sources/gnome-photos/3.30/gnome-photos-3.30.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-photos/3.30/gnome-photos-3.30.0.tar.xz
 Summary  : No detailed summary available
