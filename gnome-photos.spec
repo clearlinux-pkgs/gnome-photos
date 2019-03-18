@@ -4,7 +4,7 @@
 #
 Name     : gnome-photos
 Version  : 3.32.0
-Release  : 13
+Release  : 14
 URL      : https://download.gnome.org/sources/gnome-photos/3.32/gnome-photos-3.32.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-photos/3.32/gnome-photos-3.32.0.tar.xz
 Summary  : Access, organize, and share your photos on GNOME
