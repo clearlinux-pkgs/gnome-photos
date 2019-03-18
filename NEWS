@@ -1,22 +1,114 @@
-Overview of changes in 3.30.1
+Overview of changes in 3.32.0
+=============================
+
+* Updated translations:
+ Basque
+ Dutch
+ French
+ German
+ Italian
+ Korean
+ Latvian
+ Lithuanian
+ Portuguese (Brazilian)
+ Russian
+ Serbian
+ Vietnamese
+
+
+Overview of changes in 3.31.91
+==============================
+
+* Bugs fixed:
+  !83 application, main-toolbar: Rename "app.gear-menu" as "app.preview-menu"
+  !86 flatpak: Fix the exiv2 build
+  !87 flatpak: Don't build the exiv2 command and the sample programs
+  !88 flatpak: Delete CMake-specific build files
+  !89 flatpak: Update LibRaw to 0.19.2
+  !90 flatpak: Fix the LibRaw build
+  !91 flatpak: Explicitly specify the LibRaw build options
+  !92 test-gegl: Simplify code
+  !94 main-toolbar: Enable the gear menu only when the item is loaded
+  !99 test-gegl: Assert the bounding box when zooming GeglBuffers
+  #77 Use g_auto*
+ #117 Remove app menu
+
+* Updated translations:
+ Catalan
+ Traditional Chinese (Taiwan)
+ Czech
+ Danish
+ Finnish
+ Friulian
+ Galician
+ Greek
+ Hungarian
+ Icelandic
+ Indonesian
+ Kazakh
+ Polish
+ Romanian
+ Slovenian
+ Spanish
+ Swedish
+ Turkish
+
+
+Overview of changes in 3.31.3
 =============================
 
 * Bugs fixed:
+  !81 flatpak: Update the build flags for gexiv2
+  !84 tests: Test the GEGL utilities
+ #120 tracker-controller: Be direct when Tracker can't be found
+
+* Updated translations:
+ Spanish
+
+
+Overview of changes in 3.31.2
+=============================
+
+* Bugs fixed:
+ !68 Propagate any GError while loading a BaseItem
+ !71 build: Avoid requiring Git for release tarballs
+ !77 application, thumbnailer: Remove redundant GResource registration
+ !79 build: Update glib-tap.mk from GLib
+ !80 Start adding some unit tests
+ #77 Use g_auto*
+
+* Updated translations:
+ Esperanto
+ Malayalam
+ Slovenian
+
+
+Overview of changes in 3.31.1
+=============================
+
+* Bugs fixed:
+  !46 Add Flatpak CI, and deliver bundles with each commit
+  !55 Update the application icon for the GNOME 3.32 redesign
+  !58 build: Remove redundant if branch
+  !59 build: Ensure that the Git submodules are kept updated
+  !63 facebook-item: Don't leak the GFBGraphGoaAuthorizer
+  !65 Remove unused GTypes for enums, and declarations from the thumbnailer
+  !66 flatpak: Tell Tracker not to use a media extractor and switch
+      geocode-glib to Meson
+  #63 Split some code into a private shared library and return a GFile after
+      downloading it
+  #77 Use g_auto*
  #114 device-item, local-item: Convert to UTF-8 before displaying the path
  #115 base-item: Don't attempt to load non-UTF-8 paths
 
 * Updated translations:
- Russian
-
-
-Overview of changes in 3.30.0
-=============================
-
-* Updated translations:
  Croatian
+ Czech
  Danish
  Italian
  Latvian
+ Russian
+ Serbian
 
 
 Overview of changes in 3.29.92
@@ -172,15 +264,15 @@ Overview of changes in 3.27.90
 * Import from device (#29)
 
 * Bugs fixed:
- #6     Pre-select the exported file when opening the export directory with
+     #6 Pre-select the exported file when opening the export directory with
         Nautilus
- #7     Pre-select local files in a Flatpak-friendly way
- #43    Cancel or remove pending internal asynchronous operations or sources
+     #7 Pre-select local files in a Flatpak-friendly way
+    #43 Cancel or remove pending internal asynchronous operations or sources
         during destruction
- #44    Convert jobs API to async calls
- #65    Exporting a photo can create a directory with an initial space
- #77    Use g_auto*
- #85    Drop built-in implementation of shadows-highlights and use GEGL's
+    #44 Convert jobs API to async calls
+    #65 Exporting a photo can create a directory with an initial space
+    #77 Use g_auto*
+    #85 Drop built-in implementation of shadows-highlights and use GEGL's
  759413 Pre-select the file when opening a local source with Nautilus from
         Properties
  774297 Revamp empty states
@@ -1509,7 +1601,7 @@ Overview of changes in 3.7.2
 
 ----
 
-Copyright © 2012 – 2017 Red Hat, Inc.
+Copyright © 2012 – 2019 Red Hat, Inc.
 All rights reserved.
 
 Copying and distribution of this file, with or without modification,
