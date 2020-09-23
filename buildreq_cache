@@ -1,0 +1,10 @@
+3.38.0
+geocode-glib-dev
+gnome-online-accounts-dev
+libdazzle-dev
+pkgconfig(geocode-glib-1.0)
+pkgconfig(goa-1.0)
+pkgconfig(grilo-0.3)
+pkgconfig(libdazzle-1.0)
+pkgconfig(libgdata)
+pkgconfig(libgfbgraph-0.2)

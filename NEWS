@@ -1,38 +1,114 @@
-Overview of changes in 3.34.2
+Overview of changes in 3.38.0
 =============================
 
+* Switch to private instances of the Tracker 2.x daemons (!146)
+
 * Bugs fixed:
- !120 help: Update the application icon
- !126 test-gegl: Unbreak /gegl/buffer/zoom/in* with Babl 0.1.67
- !127 appdata: Add release notes for 3.34.0
- #149 Fix the build with GEGL 0.4.23
+ !140 flatpak: Update LibRaw to 0.20.0
+ !141 flatpak: Enable native language support in exiv2
+ !142 flatpak: Update exiv2 to 0.27.3
+ !148 utils: Avoid a potential build failure due to undefined M_PI constant
+ !149 Fix various CRITICALs from Tracker
+ !151 flatpak: Remove unsed tracker-miner build option
 
 * Updated translations:
- Simplified Chinese
- Indonesian
+ Basque
+ Danish
+ Dutch
+ English (British)
+ French
+ German
+ Hungarian
+ Italian
+ Japanese
+ Korean
+ Latvian
+ Lithuanian
+ Portuguese
+ Serbian
  Slovak
+
+
+Overview of changes in 3.37.91.1
+================================
+
+* Bugs fixed:
+ !138 build: Unbreak the installed tests
+
+
+Overview of changes in 3.37.91
+==============================
+
+* Add a new magic filter called Trencin (!129)
+
+* Bugs fixed:
+ !133 CI: Drop MESON_ARGS, and detect them from the Flatpak manifest
+
+* Updated translations:
+ Catalan
+ Simplified Chinese
+ Croatian
+ Czech
+ Finnish
+ French
+ Friulian
+ Galician
+ Greek
+ Indonesian
+ Kazakh
+ Central Kurdish
+ Lithuanian
+ Persian
+ Polish
+ Portuguese (Brazilian)
+ Romanian
+ Slovenian
+ Spanish
+ Swedish
  Turkish
  Ukrainian
 
 
-Overview of changes in 3.34.1
+Overview of changes in 3.37.2
 =============================
 
+* Drop the Autotools build system (!113)
+
+* Bugs fixed:
+ !118 flatpak: Fix the tracker and tracker-miners builds
+ !119 help-overlay: Add the shortcut for showing the help overlay itself
+ !120 help: Update the application icon
+ !121 application: Support zooming using the keyboard's numeric keypad keys
+ !122 flatpak: Sandbox GSettings use by dropping the dconf permissions
+ !123 CI: Use the new template
+ !124 flatpak: Fix the grilo-plugins build
+ !126 test-gegl: Unbreak /gegl/buffer/zoom/in* with Babl 0.1.67
+ !127 appdata: Add release notes for 3.34.0
+ !128 base-item: Use GDateTime instead of deprecated GTimeVal
+ #143 help: No more 'Recent' tab, replaced by 'Photos' tab
+ #149 Fix the build with GEGL 0.4.23
+
 * Updated translations:
+ Basque
  Catalan
+ Simplified Chinese
+ Traditional Chinese (Taiwan)
  English (British)
  French
+ Galician
+ Hebrew
+ Indonesian
  Japanese
  Malay
  Persian
-
-
-Overview of changes in 3.34.0
-=============================
-
-* Updated translations:
- Japanese
+ Portuguese (Brazilian)
  Punjabi
+ Romanian
+ Slovak
+ Spanish
+ Swedish
+ Turkish
+ Ukrainian
 
 
 Overview of changes in 3.33.91
