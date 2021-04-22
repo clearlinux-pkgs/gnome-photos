@@ -18,10 +18,10 @@ libgoa-1.0.so.0
 libgobject-2.0.so.0
 libgrilo-0.3.so.0
 libgtk-3.so.0
+libhandy-1.so.0
 libjpeg.so.62
 libm.so.6
 libpango-1.0.so.0
 libpangocairo-1.0.so.0
 libpng16.so.16
-libtracker-control-2.0.so.0
-libtracker-sparql-2.0.so.0
+libtracker-sparql-3.0.so.0
