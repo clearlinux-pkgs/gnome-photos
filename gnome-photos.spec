@@ -4,7 +4,7 @@
 #
 Name     : gnome-photos
 Version  : 40.0
-Release  : 25
+Release  : 26
 URL      : https://download.gnome.org/sources/gnome-photos/40/gnome-photos-40.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-photos/40/gnome-photos-40.0.tar.xz
 Summary  : No detailed summary available
@@ -19,15 +19,11 @@ Requires: gnome-photos-locales = %{version}-%{release}
 Requires: tracker-miners-data
 BuildRequires : buildreq-gnome
 BuildRequires : buildreq-meson
-BuildRequires : compat-tracker-soname2.0-dev
 BuildRequires : desktop-file-utils
 BuildRequires : gdk-pixbuf
 BuildRequires : gegl-dev
-BuildRequires : geocode-glib-dev
 BuildRequires : gexiv2-dev
-BuildRequires : gnome-online-accounts-dev
 BuildRequires : itstool
-BuildRequires : libdazzle-dev
 BuildRequires : libjpeg-turbo-dev
 BuildRequires : pkgconfig(geocode-glib-1.0)
 BuildRequires : pkgconfig(goa-1.0)
@@ -116,7 +112,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1619114187
+export SOURCE_DATE_EPOCH=1624503766
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

@@ -1,11 +1,10 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
-gegl-dev
-libjpeg-turbo-dev
-gexiv2-dev
-gdk-pixbuf
 desktop-file-utils
+gdk-pixbuf
+gegl-dev
+gexiv2-dev
 itstool
+libjpeg-turbo-dev
 pygobject-python
 yelp-tools-dev
-compat-tracker-soname2.0-dev
