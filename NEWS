@@ -1,27 +1,11 @@
-Overview of changes in 40.0
-===========================
+Overview of changes in 42.0
+===============================
+* appdata: Update screenshots 
+* tracker: Correctly pass IndexLocation flags 
+* Fix headerbar button vertical alignment
 
-* Updated translations:
- English (British)
- Portuguese
- Vietnamese
-
-
-Overview of changes in 40.rc
-============================
-
-* Bugs fixed:
- !154 gegl: Don't exceed arbitrary maximum number of threads
- !174 build, flatpak: Add an option for installing Flatpak-specific files
- !175 Unbreak deletion of items from the Tracker database
-  #92 Ensure that items get deleted when app is quit
-
-* Updated translations:
- Danish
- Italian
- Korean
- Norwegian bokmål
- Punjabi
+Overview of changes in 41.alpha
+===============================
 
 
 Overview of changes in 40.beta
@@ -1804,7 +1788,7 @@ Overview of changes in 3.7.2
 
 ----
 
-Copyright © 2012 – 2019 Red Hat, Inc.
+Copyright © 2012 – 2021 Red Hat, Inc.
 All rights reserved.
 
 Copying and distribution of this file, with or without modification,
