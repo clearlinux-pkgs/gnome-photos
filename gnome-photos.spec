@@ -4,7 +4,7 @@
 #
 Name     : gnome-photos
 Version  : 43.0
-Release  : 31
+Release  : 32
 URL      : https://download.gnome.org/sources/gnome-photos/43/gnome-photos-43.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-photos/43/gnome-photos-43.0.tar.xz
 Summary  : No detailed summary available
