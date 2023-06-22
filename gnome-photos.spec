@@ -5,7 +5,7 @@
 #
 Name     : gnome-photos
 Version  : 44.0
-Release  : 36
+Release  : 37
 URL      : https://download.gnome.org/sources/gnome-photos/44/gnome-photos-44.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-photos/44/gnome-photos-44.0.tar.xz
 Summary  : No detailed summary available
@@ -32,7 +32,6 @@ BuildRequires : pkgconfig(goa-1.0)
 BuildRequires : pkgconfig(grilo-0.3)
 BuildRequires : pkgconfig(libdazzle-1.0)
 BuildRequires : pkgconfig(libgdata)
-BuildRequires : pkgconfig(libgfbgraph-0.2)
 BuildRequires : pkgconfig(libhandy-1)
 BuildRequires : pkgconfig(libportal)
 BuildRequires : pkgconfig(tracker-sparql-3.0)
@@ -118,15 +117,15 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1680029992
+export SOURCE_DATE_EPOCH=1687475239
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
-export CFLAGS="$CFLAGS -O3 -fdebug-types-section -femit-struct-debug-baseonly -ffat-lto-objects -flto=auto -g1 -gno-column-info -gno-variable-location-views -gz "
-export FCFLAGS="$FFLAGS -O3 -fdebug-types-section -femit-struct-debug-baseonly -ffat-lto-objects -flto=auto -g1 -gno-column-info -gno-variable-location-views -gz "
-export FFLAGS="$FFLAGS -O3 -fdebug-types-section -femit-struct-debug-baseonly -ffat-lto-objects -flto=auto -g1 -gno-column-info -gno-variable-location-views -gz "
-export CXXFLAGS="$CXXFLAGS -O3 -fdebug-types-section -femit-struct-debug-baseonly -ffat-lto-objects -flto=auto -g1 -gno-column-info -gno-variable-location-views -gz "
+export CFLAGS="$CFLAGS -O3 -fdebug-types-section -femit-struct-debug-baseonly -ffat-lto-objects -flto=auto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
+export FCFLAGS="$FFLAGS -O3 -fdebug-types-section -femit-struct-debug-baseonly -ffat-lto-objects -flto=auto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
+export FFLAGS="$FFLAGS -O3 -fdebug-types-section -femit-struct-debug-baseonly -ffat-lto-objects -flto=auto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
+export CXXFLAGS="$CXXFLAGS -O3 -fdebug-types-section -femit-struct-debug-baseonly -ffat-lto-objects -flto=auto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CFLAGS="$CFLAGS" CXXFLAGS="$CXXFLAGS" LDFLAGS="$LDFLAGS" meson --libdir=lib64 --prefix=/usr --buildtype=plain   builddir
 ninja -v -C builddir
 
@@ -155,7 +154,7 @@ DESTDIR=%{buildroot} ninja -C builddir install
 
 %files doc
 %defattr(0644,root,root,0755)
-%doc /usr/share/doc/gnome\-photos/*
+/usr/share/doc/gnome\-photos/*
 /usr/share/help/C/gnome-photos/favorites-set.page
 /usr/share/help/C/gnome-photos/favorites.page
 /usr/share/help/C/gnome-photos/index.page
