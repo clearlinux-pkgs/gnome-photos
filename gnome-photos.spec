@@ -5,7 +5,7 @@
 #
 Name     : gnome-photos
 Version  : 44.0
-Release  : 37
+Release  : 38
 URL      : https://download.gnome.org/sources/gnome-photos/44/gnome-photos-44.0.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-photos/44/gnome-photos-44.0.tar.xz
 Summary  : No detailed summary available
